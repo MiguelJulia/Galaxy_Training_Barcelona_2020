@@ -91,5 +91,6 @@ Slides: https://training.galaxyproject.org/training-material/topics/admin/tutori
 
 example config file: https://github.com/galaxyproject/galaxy/blob/dev/lib/galaxy/config/sample/job_conf.xml.sample_advanced 
 
+example with SLURM: https://training.galaxyproject.org/training-material/topics/admin/tutorials/connect-to-compute-cluster/tutorial.html
 
 
