@@ -8,6 +8,7 @@ Galaxy versions are only supported for 1y. Update is mandatory!
 
 ## Ansible
 Ansible tutorial:  https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible/tutorial.html#your-first-playbook-and-first-role
+
 Ansible Glaxy repo:  https://galaxy.ansible.com/
 
 
@@ -31,19 +32,19 @@ Ansible basic inventory structure:
 ```
 
 Execute ansible playbook from inventory:
-`ansible-playbook -i hosts playbook.yml`
+```ansible-playbook -i hosts playbook.yml```
 
 
 Execute ansible playbook from inventory and enumerate differences:
-`ansible-playbook -i hosts playbook.yml --check --diff`
+```ansible-playbook -i hosts playbook.yml --check --diff```
 
 
 List host metadata:
-`ansible -i hosts -m setup my_hosts | less`
+```ansible -i hosts -m setup my_hosts | less```
 
 
 Add some roles from Ansible Galaxy:
-`ansible-galaxy install -p roles/ geerlingguy.git`
+```ansible-galaxy install -p roles/ geerlingguy.git```
 
 
 ## Install Galaxy
@@ -71,7 +72,11 @@ Users:  https://training.galaxyproject.org/training-material/topics/admin/tutori
 
 ## Auth Methods
 i.e., LDAP: 
+
 slides: https://training.galaxyproject.org/training-material/topics/admin/tutorials/external-auth/slides.html#1
-example: https://training.galaxyproject.org/training-material/topics/admin/tutorials/external-auth/tutorial.html
+
+exampleof configuration: https://training.galaxyproject.org/training-material/topics/admin/tutorials/external-auth/tutorial.html
+
+
 
 
