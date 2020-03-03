@@ -78,5 +78,9 @@ slides: https://training.galaxyproject.org/training-material/topics/admin/tutori
 example of configuration: https://training.galaxyproject.org/training-material/topics/admin/tutorials/external-auth/tutorial.html
 
 
+## Reference Data and CVMFS
+Slides: https://training.galaxyproject.org/training-material/topics/admin/tutorials/cvmfs/slides.html#1
+
+My previous repo with ansible installing Galaxy with CVMFS: https://github.com/MiguelJulia/GCC2019_GalaxyAnsibleDeplyoment_CVMFS
 
 
