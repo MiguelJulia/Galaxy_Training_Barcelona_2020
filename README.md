@@ -75,7 +75,7 @@ i.e., LDAP:
 
 slides: https://training.galaxyproject.org/training-material/topics/admin/tutorials/external-auth/slides.html#1
 
-exampleof configuration: https://training.galaxyproject.org/training-material/topics/admin/tutorials/external-auth/tutorial.html
+example of configuration: https://training.galaxyproject.org/training-material/topics/admin/tutorials/external-auth/tutorial.html
 
 
 
