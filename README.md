@@ -70,5 +70,5 @@ Users:  https://training.galaxyproject.org/training-material/topics/admin/tutori
 
 
 ## Auth Methods
-LDAP
+i.e., LDAP: https://training.galaxyproject.org/training-material/topics/admin/tutorials/external-auth/slides.html#1
 
