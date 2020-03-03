@@ -1,0 +1,3 @@
+[galaxyservers]
+gat-32.student.galaxy.training ansible_connection=local
+

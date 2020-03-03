@@ -1,0 +1,33 @@
+## Install Ephimeris
+virtualenv -p python3 ephemeris_venv
+. ephemeris_venv/bin/activate
+pip install ephemeris
+
+## Dowload Workflow
+wget https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/workflows/mapping.ga
+
+## Extract tools list
+workflow-to-tools -w mapping.ga -o workflow_tools.yml -l "mapping tools"
+
+## As we have a staged https certificate we need a workarround, download fake certificate
+wget https://letsencrypt.org/certs/fakelerootx1.pem
+## Copy certificate with .crt extension
+cp fakelerootx1.pem /usr/local/share/ca-certificates/fakelerootx1.crt
+## Run update-ca-certificates as root
+sudo update-ca-certificates
+## Execute export REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt
+export REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt 
+
+## Install tools
+shed-tools install -g https://gat-32.student.galaxy.training -a 434611ec6244dca546022601d8b3e93d --name bwa --owner devteam --section_label Mapping
+
+## Install the whole workflow tools
+shed-tools install -g https://gat-32.student.galaxy.training -a 434611ec6244dca546022601d8b3e93d -t workflow_tools.yml
+
+## Test installed tools
+shed-tools test -g https://gat-32.student.galaxy.training -a 434611ec6244dca546022601d8b3e93d --name bamtools_filter --owner devteam
+
+## Get tools in a public Galaxy instance
+get-tool-list -g "https://usegalaxy.eu" -o "eu_tool_list.yaml"
+
+
