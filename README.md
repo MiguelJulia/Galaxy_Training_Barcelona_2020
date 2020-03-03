@@ -12,6 +12,7 @@ Ansible Glaxy repo:  https://galaxy.ansible.com/
 
 
 Ansible basic inventory structure:
+'''
 .
 ├── group_vars
 │   └── my_hosts.yml
@@ -27,22 +28,22 @@ Ansible basic inventory structure:
         │   └── main.yml
         └── templates
             └── test.ini.j2
-
+'''
 
 Execute ansible playbook from inventory:
-ansible-playbook -i hosts playbook.yml
+'ansible-playbook -i hosts playbook.yml'
 
 
 Execute ansible playbook from inventory and enumerate differences:
-ansible-playbook -i hosts playbook.yml --check --diff
+'ansible-playbook -i hosts playbook.yml --check --diff'
 
 
 List host metadata:
-ansible -i hosts -m setup my_hosts | less
+'ansible -i hosts -m setup my_hosts | less'
 
 
 Add some roles from Ansible Galaxy:
-ansible-galaxy install -p roles/ geerlingguy.git
+'ansible-galaxy install -p roles/ geerlingguy.git'
 
 
 ## Install Galaxy
