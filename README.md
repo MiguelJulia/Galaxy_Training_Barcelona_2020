@@ -86,3 +86,10 @@ example of configuration: https://training.galaxyproject.org/training-material/t
 My previous repo with ansible installing Galaxy with CVMFS: https://github.com/MiguelJulia/GCC2019_GalaxyAnsibleDeplyoment_CVMFS
 
 
+## Job configuration
+Slides: https://training.galaxyproject.org/training-material/topics/admin/tutorials/connect-to-compute-cluster/slides.html#1
+
+example config file: https://github.com/galaxyproject/galaxy/blob/dev/lib/galaxy/config/sample/job_conf.xml.sample_advanced 
+
+
+
