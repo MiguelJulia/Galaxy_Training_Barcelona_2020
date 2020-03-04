@@ -94,3 +94,16 @@ example config file: https://github.com/galaxyproject/galaxy/blob/dev/lib/galaxy
 example with SLURM: https://training.galaxyproject.org/training-material/topics/admin/tutorials/connect-to-compute-cluster/tutorial.html
 
 
+## Reporting
+Basic conf: https://training.galaxyproject.org/training-material/topics/admin/tutorials/reports/tutorial.html
+
+gxadmin: https://training.galaxyproject.org/training-material/topics/admin/tutorials/gxadmin/slides.html#1
+
+exercise: https://training.galaxyproject.org/training-material/topics/admin/tutorials/gxadmin/tutorial.html
+
+
+## Monitoring
+Slides: https://training.galaxyproject.org/training-material/topics/admin/tutorials/monitoring/slides.html#1
+
+Example: https://training.galaxyproject.org/training-material/topics/admin/tutorials/monitoring/tutorial.html
+
