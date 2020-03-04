@@ -94,6 +94,17 @@ example config file: https://github.com/galaxyproject/galaxy/blob/dev/lib/galaxy
 example with SLURM: https://training.galaxyproject.org/training-material/topics/admin/tutorials/connect-to-compute-cluster/tutorial.html
 
 
+## Pulsar (for running jobs on remote resources)
+Slides: https://galaxyproject.github.io//training-material/topics/admin/tutorials/pulsar/slides.html#1
+
+Example: https://galaxyproject.github.io//training-material/topics/admin/tutorials/pulsar/tutorial.html
+
+
+## Bioblend (Galaxy API)
+Slides: https://training.galaxyproject.org/training-material/topics/dev/tutorials/bioblend-api/slides.html#1
+
+Examples: https://mybinder.org/v2/gh/nsoranzo/bioblend-tutorial/master?filepath=bioblend_histories.ipynb
+
 ## Reporting
 Basic conf: https://training.galaxyproject.org/training-material/topics/admin/tutorials/reports/tutorial.html
 
