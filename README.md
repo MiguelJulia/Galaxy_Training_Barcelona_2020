@@ -118,3 +118,8 @@ Slides: https://training.galaxyproject.org/training-material/topics/admin/tutori
 
 Example: https://training.galaxyproject.org/training-material/topics/admin/tutorials/monitoring/tutorial.html
 
+## Data management
+Slides: https://training.galaxyproject.org/training-material/topics/admin/tutorials/object-store/slides.html#1
+
+Exercise: https://training.galaxyproject.org/training-material/topics/admin/tutorials/object-store/tutorial.html
+
